@@ -1,3 +1,7 @@
+from src.llm import LLM
+from src.trajectory import Trajectory
+
+
 class hadesAI:
     """A minimal agent to learn about ai agent engineering from scratch"""
     def __init__(self, llm: LLM):
